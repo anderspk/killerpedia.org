@@ -9,11 +9,11 @@ const Male = ({ killers }) => (
 );
 
 Male.getInitialProps = async () => {
-  const { data } = await axios.get(
-    "https://jsonplaceholder.typicode.com/users"
+  const { data: killers } = await axios.get(
+    "http://localhost:3001/killers/male"
   );
   return {
-    killers: data
+    killers
   };
 };
 

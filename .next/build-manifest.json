@@ -11,27 +11,15 @@
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/country": [
+    "/male": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/female": [
+    "/killer": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ],
-    "/killerprofile": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/index": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/next/dist/pages/_error": [
-      "static/runtime/webpack.js",
-      "static/runtime/main.js"
-    ],
-    "/": [
+    "/addkiller": [
       "static/runtime/webpack.js",
       "static/runtime/main.js"
     ]

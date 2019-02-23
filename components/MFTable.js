@@ -15,13 +15,16 @@ export default props => (
         {props.killers.map(killer => (
           <tr key={killer.id}>
             <td>
-              <Link href={`/killer/${killer.name}`}>
+              <Link
+                as={`/killer/${killer.slug}`}
+                href={`/killer?slug=${killer.slug}`}
+              >
                 <a>{killer.name}</a>
               </Link>
             </td>
-            <td>{killer.username}</td>
-            <td>{killer.name.length}</td>
-            <td>{killer.address.city}</td>
+            <td>{killer.date_of_murders}</td>
+            <td>{killer.number_of_victims}</td>
+            <td>{killer.location}</td>
           </tr>
         ))}
       </tbody>

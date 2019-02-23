@@ -9,9 +9,7 @@ const Female = ({ killers }) => (
 );
 
 Female.getInitialProps = async () => {
-  const { data } = await axios.get(
-    "https://jsonplaceholder.typicode.com/users"
-  );
+  const { data } = await axios.get("http://localhost:3001/killers/female");
   return {
     killers: data
   };

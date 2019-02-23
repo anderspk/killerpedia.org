@@ -20,7 +20,7 @@ const Layout = props => (
       main {
         flex: 1;
         width: 100%;
-        border-radius: 5px;
+        border-radius: 2px;
         background: #ececec;
         border: 1px solid #dcdcdc;
       }

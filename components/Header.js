@@ -37,6 +37,9 @@ export default () => (
           </Link>
         </li>
       </ul>
+      <Link href="/addkiller">
+        <button>Add killer</button>
+      </Link>
       <style jsx>{`
         nav {
           padding: 1rem 0;
@@ -59,7 +62,6 @@ export default () => (
           font-size: 14px;
           color: inherit;
           text-decoration: none;
-          // transition: all 0.2s;
           padding: 0.5rem 0.1rem;
           letter-spacing: 1px;
         }
@@ -81,7 +83,6 @@ export default () => (
           margin: 4px 0;
           font-weight: 500;
           display: inline-block;
-          font-family: "Merriweather", serif;
           color: #6dc8ff;
         }
       `}</style>
